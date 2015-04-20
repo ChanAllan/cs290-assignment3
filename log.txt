@@ -1,1 +1,5 @@
 You log goes in this  file.
+
+Start: Sun, 19 APR 2015 20:30:00 -0700
+End: Sun, 19 APR 2015 22:01:56 -0700
+Tasks: During this period I worked on functions.js. I also installed JSLint on Sublime Text 2. I also tested the file on JSLint.com and with the installed JSLint on Sublime. Errors will be corrected later. 
