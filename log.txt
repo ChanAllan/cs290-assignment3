@@ -8,6 +8,10 @@ Start: Sun, 19 APR 2015 22:35:00 -0700
 End: Sun, 19 APR 2015 23:23:31 -0700
 Tasks: Worked on variables.js file and looked over documentations for Javascript.
 
-Start: Tue, 22 APR 2015 14:00:00 -0700
-End: Tue, 22 APR 2015 15:37:30 -0700
+Start: Wed, 22 APR 2015 14:00:00 -0700
+End: Wed, 22 APR 2015 15:37:30 -0700
 Tasks: During this period I worked on objects.js. I also updated functions.js to pass the Javascript test. As of now, all three files passed the Javascript test. 
+
+Start: Thu, 23 APR 2015 01:00:00 -0700
+End: Thu, 23 APR 2015 01:38:41 -0700
+Tasks: During this period I updated functions.js to pass JSlint.
