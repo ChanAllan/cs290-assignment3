@@ -10,9 +10,9 @@
 
 function returnObjectLiteral() {
   //your code here
-  return { type: "Goldfish",
-           brand:"Pepperidge Farm",
-           flavor: "Cheddar",
+  return { type: 'Goldfish',
+           brand: 'Pepperidge Farm',
+           flavor: 'Cheddar',
            count: 2000 }; //Modify ONLY this line
   //end your code
 }
@@ -54,8 +54,7 @@ function MessageLog(user) {
       }
       this.sentMessage.unshift(messageText);
       this.numberSent++;
-    }
-    else {
+    } else {
       this.receivedMessage.unshift(messageText);
     }
   };
@@ -67,7 +66,7 @@ function MessageLog(user) {
   };
   this.totalReceived = function () {
     return this.receivedMessage.length;
-  }
+  };
 }
 //end your code
 
@@ -79,7 +78,7 @@ function MessageLog(user) {
 //your code here
 MessageLog.prototype.lastReceivedMessage = function () {
   return this.receivedMessage[0];
-}
+};
 //end your code
 
 /**
@@ -89,8 +88,8 @@ MessageLog.prototype.lastReceivedMessage = function () {
 */
 
 //your code here
-var myLog = new MessageLog("BlackHatGuy");
-myLog.logMessage("foo", 1);
-myLog.logMessage("bar", 1);
-myLog.logMessage("baz", 1);
+var myLog = new MessageLog('BlackHatGuy');
+myLog.logMessage('foo', 1);
+myLog.logMessage('bar', 1);
+myLog.logMessage('baz', 1);
 //end your code
