@@ -15,3 +15,7 @@ Tasks: During this period I worked on objects.js. I also updated functions.js to
 Start: Thu, 23 APR 2015 01:00:00 -0700
 End: Thu, 23 APR 2015 01:38:41 -0700
 Tasks: During this period I updated functions.js to pass JSlint.
+
+Start: Thu, 23 APR 2015 01:45:00 -0700
+End: Thu, 23 APR 2015 01:49:20 -0700
+Tasks: During this period I updated objects.js to pass JSlint.
