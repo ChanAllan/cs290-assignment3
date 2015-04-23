@@ -34,11 +34,11 @@ var barType = typeof bar;
 
 //your code here
 var i = 0;
-bar = function(doubleArray) {
+bar = function (doubleArray) {
   for (i = 0; i < doubleArray.length; i++) {
     if (!isNaN(doubleArray[i])) {
-      doubleArray[i] = doubleArray[i] * 2; }
-    else {
+      doubleArray[i] = doubleArray[i] * 2;
+    } else {
       return false;
     }
   }
@@ -54,9 +54,9 @@ bar = function(doubleArray) {
 * @property {string} message - the commit message
 */
 function GitLog(hash, date, message) {
-    this.hash = hash;
-    this.date = date;
-    this.message = message;
+  this.hash = hash;
+  this.date = date;
+  this.message = message;
 }
 
 /**
@@ -80,16 +80,16 @@ function GitLog(hash, date, message) {
 
 //your code here
 function parseGit(logArray) {
-  var GitLogArray = [];
-  var hash, date, message;
-  var i = 0;
+  var GitLogArray = [], hash = '', date = '', message = '',
+    i, space, begQuote, endQuote, logObject;
 
   for (i = 0; i < logArray.length; i++) {
-    var space = logArray[i].indexOf(' ');
-    var begQuote = logArray[i].indexOf('"');
-    var endQuote = logArray[i].lastIndexOf('"');
+    space = logArray[i].indexOf(' ');
+    begQuote = logArray[i].indexOf('"');
+    endQuote = logArray[i].lastIndexOf('"');
+    logObject = new GitLog(hash, date, message);
 
-    GitLogArray.push(new GitLog);
+    GitLogArray.push(logObject);
     GitLogArray[i].hash = logArray[i].slice(0, space);
     GitLogArray[i].date = new Date(logArray[i].slice(space, begQuote));
     GitLogArray[i].message = logArray[i].slice(begQuote + 1, endQuote);
