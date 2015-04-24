@@ -19,3 +19,7 @@ Tasks: During this period I updated functions.js to pass JSlint.
 Start: Thu, 23 APR 2015 01:45:00 -0700
 End: Thu, 23 APR 2015 01:49:20 -0700
 Tasks: During this period I updated objects.js to pass JSlint.
+
+Start: Thu, 23 APR 2015 21:30:00 -0700
+End: Fri, 24 APR 2015 01:07:25 -0700
+Tasks: Created repo, index.html and gists.js files. Worked on index.html and have a basic html outline. Reviewed resources to for a better understanding of the assignment. 
