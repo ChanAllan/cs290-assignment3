@@ -27,3 +27,7 @@ Tasks: Created repo, index.html and gists.js files. Worked on index.html and hav
 Start: Fri, 24 APR 2015 15:00:00 -0700
 End: Sat, 25 APR 2015  00:27:42-0700
 Tasks: Spent a lot of time working on the assignment. Made some changes in the index.html file, gistsStyles.css, gists.js. Most of the time was spent reviewing class resources.
+
+Start: Sat, 25 APR 2015 17:00:00 -0700
+End: Sun, 26 APR 2015  01:03:24-0700
+Tasks: Spent a lot of time working on the assignment. Made some changes to the index.html along with the css file. Worked on the gists.js and it now shows the gists list. Most of the time was spent reviewing resources. 
