@@ -31,3 +31,7 @@ Tasks: Spent a lot of time working on the assignment. Made some changes in the i
 Start: Sat, 25 APR 2015 17:00:00 -0700
 End: Sun, 26 APR 2015  01:03:24-0700
 Tasks: Spent a lot of time working on the assignment. Made some changes to the index.html along with the css file. Worked on the gists.js and it now shows the gists list. Most of the time was spent reviewing resources. 
+
+Start: Sun, 26 APR 2015 14:00:00 -0700
+End: Sun, 26 APR 2015  18:09:39-0700
+Tasks: During this period I spent time working on gists.js. It is not complete. 
